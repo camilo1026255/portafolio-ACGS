@@ -1,0 +1,731 @@
+
+/* General */
+body {
+    background-color: #121212; 
+    color: #f8f9fa; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+#header .navbar {
+    background: rgba(0, 0, 0, 0.9); 
+    padding: 1rem 0;
+}
+#header .navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+#header .navbar-brand:hover {
+    color: #08D2FF;
+}
+#header .nav-link {
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+#header .nav-link:hover {
+    color: #08D2FF;
+}
+
+
+
+/* Main Section */
+#inicio {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/background.jpg') no-repeat center center/cover;
+}
+#foto-mia {
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
+}
+#nombre {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.highlight {
+    color: #08D2FF;
+}
+#descripcion {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #d4d4d4;
+    max-width: 600px;
+}
+#btn-cv {
+    background-color: transparent;
+    color: #fff;
+    margin-top: 73px;
+    font-weight: bold;
+    border: 5px solid #fff;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+#btn-cv:hover {
+    background-color: #111D30;
+    color: rgb(255, 255, 255);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(117, 190, 233, 0.5);
+}
+
+/* Social Icons */
+#social-icons {
+    margin-top: 20px;
+    margin-right: 999px;
+    font-size: 67px;
+}
+.social-link {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+.social-link:hover {
+    color: #FFD700;
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d4d4d4;
+}
+
+
+
+
+/* General */
+body {
+    background-color: #0d1117; 
+    color: #c9d1d9; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.navbar {
+    background-color: #161b22; 
+}
+.nav-link {
+    color: #c9d1d9;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #58a6ff;
+}
+
+/* Perfil */
+#perfil {
+    background: linear-gradient(to right, #161b22, #0d1117);
+    padding: 12%;
+}
+
+#perfil h1, #perfil h2 {
+    color: #58a6ff; 
+}
+.cont-foto img {
+    max-width: 100%;
+    border: 5px solid #58a6ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.cont-info p {
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #161b22;
+    color: #c9d1d9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+/* hab */
+
+
+/* Estilos generales */
+body {
+    background-color: #0b0e2d; 
+    color: #f0f0f0; 
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+#main-navbar {
+    background-color: #121639;
+    border-bottom: 2px solid #1c1f4a; /* Línea decorativa */
+}
+
+#main-navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#main-navbar .navbar-brand:hover {
+    color: #00d4ff; 
+}
+
+#navbar-menu .nav-link {
+    color: #f0f0f0;
+    margin-left: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+#navbar-menu .nav-link:hover {
+    color: #00d4ff; 
+}
+
+/* Sección de habilidades */
+#main-content {
+    background: linear-gradient(to bottom, #0b0e2d, #121639); 
+    padding-bottom: 2rem;
+    height: 100vh;
+}
+
+#habilidades-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #00d4ff;
+    text-shadow: 2px 2px 5px #000;
+}
+#habilidades-descripcion-1,
+#habilidades-descripcion-2 {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #d3d3d3 ;   
+    text-align: justify;
+}
+
+
+p#habilidades-descripcion-2 {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #d3d3d3 ;   
+    text-align: justify;
+}
+
+#habilidades-text {
+    margin-bottom: 2rem;
+}
+
+/* Estilo de iconos */
+#icons-grid {
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 70px;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    background-color: #1c1f4a;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Sombra más pronunciada */
+}
+
+/* Footer (opcional) */
+#footer {
+    background-color: #121639;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 2px solid #1c1f4a; /* Línea decorativa */
+}
+
+
+
+/* portafolio */
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la sección del portafolio */
+#portfolio-section {
+    background: url('../img/background1.png') no-repeat center center/cover; /* Ruta actualizada */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Título del portafolio */
+#portfolio-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00bfff;
+    margin-right: 290px;
+    font-size:50px ;
+}
+
+/* Descripción del portafolio */
+
+#portfolio-description {
+    text-align: start;
+    line-height: 1.5;
+    margin: 10px 20px;
+    font-size:30px ;
+    margin-left: 256px;
+}
+
+
+/* estudios */
+
+
+#studies-section {
+    background: url('../img/ESTUDIOS.png') no-repeat center center/cover; /* Ruta actualizada */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ocupa toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#studies-section h1 {
+    color: #00bfff;
+    font-weight: bold;
+    margin-right: 430px;
+}
+
+
+
+#studies-section p {
+    text-align: start;
+    line-height: 1.8;
+    color: #ffffff;
+    margin-left: 290px;
+}
+
+
+#studies-section ul li {
+    list-style-type: disc;
+    color: #ffffff;
+    text-align: start;
+    margin-left: 290px;
+}
+
+#studies-section ul li {
+    list-style-type: disc; 
+    color: #ffffff;
+}
+
+
+
+
+
+
+/* Estilos de la experiencia */
+#experience-section {
+    background: url('../img/EXPRENCIA.png') no-repeat center center/cover; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Título */
+
+#experience-title {
+    color: #00bfff; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    text-align: left; 
+    font-size: 32px;
+}
+
+/* Posición y datos principales */
+#experience-position {
+    font-size: 1.2rem; 
+    margin-bottom: 20px;
+    color: #ffffff; 
+    text-align: left; 
+    padding-left: 200px;
+}
+
+/* Descripción de la experiencia */
+#experience-description {
+    text-align: left;
+    line-height: 1.8; 
+    color: #ffffff; 
+    margin-bottom: 20px; 
+    padding-left: 200px;
+}
+
+/* Título de responsabilidades */
+#experience-responsibilities-title {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 200px;
+}
+
+/* Lista de responsabilidades */
+#experience-responsibilities-list {
+    padding-left: 20px; 
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 200px;
+}
+
+#experience-responsibilities-list li {
+    list-style-type: disc; 
+    color: #ffffff; 
+    margin-bottom: 10px; 
+    text-align: left;
+    
+}
+
+
+/* hobbies */
+/* Sección general */
+#hobbies-section {
+    background: linear-gradient(180deg, #001f3f, #003366); 
+    min-height: 100vh; 
+}
+  
+  /* Imagen */
+#hobbies-image {
+    padding-right: 63px;
+    margin-bottom: 142px
+}
+  
+  /* Título */
+#hobbies-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+  
+  /* Descripción */
+#hobbies-description p {
+    line-height: 1.8; 
+    margin-bottom: 15px; 
+}
+  
+
+/* Estilo para el encabezado de proyectos */
+#trabajo-relizado {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color:rgb(13 110 253) !important; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    animation: fadeInDown 1s ease-in-out; 
+}
+
+
+
+/* Estilo general para los botones */
+#trabajo-rel {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; 
+    background-color: #007bff; 
+    border: 2px solid transparent;
+    border-radius: 10px; 
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover: Efecto al pasar el mouse */
+#trabajo-rel:hover {
+    background-color: #0056b3; 
+    color: #ffffff; 
+    transform: translateY(-5px); 
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#cuadrado {
+   
+    background-color: transparent;
+    position: absolute;
+    left: -124px;
+    width: 407px;
+    z-index: -1;
+    top: 63px;
+}
+
+/* Adaptabilidad para pantallas pequeñas */
+@media (max-width: 768px) {
+    #trabajo-rel {
+        font-size: 1rem; 
+        padding: 10px 20px;
+    }
+}
+
+
+
+/* dia o noche */
+
+body.light-mode #inicio   {
+    color: #000000;
+    
+}
+
+body.dark-mode #inicio {
+    background-color: #ff0000;
+    background: url('../img/bogota.jpg') no-repeat center center/cover;
+
+}
+body.dark-mode #inicio p {
+    color: #000000;
+    font-weight: bold;
+
+}
+
+body.dark-mode #inicio h1 {
+    color: #000000;
+    font-weight: bold;
+
+}
+
+
+
+/* Ajuste de colores para la barra de navegación */
+.navbar.dark-mode {
+    background-color: #ff0000;
+}
+.navbar.light-mode {
+    background-color: #f8f9fa;
+}
+#inicio {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/background.jpg') no-repeat center center/cover;
+}
+
+
+
+/* pre */
+/* Estilos para el contenedor inicial */
+body.light-mode #perfil {
+    color: #ffffff;
+
+    
+}
+
+body.dark-mode #inicio {
+    background-color: #ffffff;
+    background: url('../img/bogota.jpg') no-repeat center center/cover;
+}
+body.dark-mode .cont-info p {
+    line-height: 1.8;
+    color: #000 !important;
+}
+
+body.dark-mode #perfil {
+    color: #ffffff;
+    font-weight: bold;
+    background: linear-gradient(to right, #272424, #ffffff);
+    padding: 12%;
+}
+
+/* hab */
+
+body.dark-mode #main-content {
+    background: linear-gradient(to bottom, #272424, #ffffff);
+    padding-bottom: 2rem;
+}
+
+
+/* body.dark-mode #habilidades-descripcion-1, #habilidades-descripcion-2 {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ffffff;
+    text-align: justify;
+} */
+
+body.dark-mode   #habilidades-descripcion-1, #habilidades-descripcion-2 {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #000000;
+    text-align: justify;
+    font-weight: bold;
+}
+
+body.dark-mode p#habilidades-descripcion-2 {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #000000;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/* porta */
+
+body.dark-mode  #portfolio-section {
+    background: url(../img/PORTAFOLIO.png) no-repeat center center / cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body.dark-mode #portfolio-description {
+    text-align: start;
+    line-height: 1.5;
+    margin: 10px 20px;
+    font-size: 36px;
+    margin-left: 256px;
+    color: #000000;;
+    font-weight: bold;
+}
+
+body.dark-mode #studies-section {
+    background: url(../img/ESTUDIOSDIA.png) no-repeat center center / cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body.dark-mode #studies-section p {
+    text-align: start;
+    line-height: 1.8;
+    color: #000000;
+    margin-left: 290px;
+}
+
+body.dark-mode  #studies-section ul li {
+    list-style-type: disc;
+    color: #000000;
+}
+
+body.dark-mode #experience-section {
+    background: url(../img/EXPRENCIADIA.png) no-repeat center center / cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body.dark-mode #experience-position {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: left;
+    padding-left: 200px;
+}
+
+body.dark-mode #experience-description {
+    text-align: left;
+    line-height: 1.8;
+    color: #000000;
+    margin-bottom: 20px;
+    padding-left: 200px;
+}
+
+body.dark-mode #experience-responsibilities-title {
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 200px;
+}
+
+body.dark-mode #experience-responsibilities-list li {
+    list-style-type: disc;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+body.dark-mode #hobbies-section {
+    background: linear-gradient(180deg, #e2e4e6, #003366);
+    min-height: 100vh;
+}
+
+body.dark-mode .text-white {
+    --bs-text-opacity: 1;
+    color: rgb(0 0 0) !important;
+}
